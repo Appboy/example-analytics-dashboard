@@ -1,0 +1,41 @@
+{
+  "name": "analytics-dash",
+  "version": "1.0.0",
+  "description": "How to use create-react-app with a custom Node API on Heroku",
+  "engines": {
+    "node": "8.9.x"
+  },
+  "scripts": {
+    "start": "node server",
+    "heroku-postbuild": "cd client/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "client/node_modules"
+  ],
+  "dependencies": {
+    "basic-auth": "^2.0.0",
+    "cron": "^1.3.0",
+    "express": "^4.14.1",
+    "http-auth": "^3.2.3",
+    "json": "^9.0.6",
+    "lodash": "^4.17.5",
+    "moment": "^2.21.0",
+    "mongodb": "^3.0.4",
+    "mongoose": "^5.0.9",
+    "node-fetch": "^2.1.1",
+    "promise": "^8.0.1",
+    "request": "^2.83.0",
+    "socket.io": "^2.0.4",
+    "split": "^1.0.1",
+    "ws": "^5.0.0"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "create-react-app",
+    "react"
+  ],
+  "license": "MIT",
+  "devDependencies": {}
+}
