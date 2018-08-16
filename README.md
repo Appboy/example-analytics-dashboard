@@ -1,6 +1,6 @@
 # Braze Analytics Dashboard
 
-The goal of this dashboard is to provide an example of the flexability our REST API endpoints allow for customized reporting needs. Please note that this project is NOT one that will be actively supported/enhanced by Braze as it is intended only to serve as an example.
+The goal of this dashboard is to provide an example of the flexibility our REST API endpoints allow for customized reporting needs. Please note that this project is NOT one that will be actively supported/enhanced by Braze as it is intended only to serve as an example.
 
 ## How it Works
 The analytics dashboard allows you to view key performance metrics of your campaigns in real time. You can search and filter your data by **name, message content, tags, and message channels.** Data is shown on a campaign, variant, and aggregated basis.
