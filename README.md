@@ -1,3 +1,5 @@
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 # Braze Analytics Dashboard
 
 The goal of this dashboard is to provide an example of the flexibility our REST API endpoints allow for customized reporting needs. Please note that this project is NOT one that will be actively supported/enhanced by Braze as it is intended only to serve as an example.
@@ -25,7 +27,12 @@ You could also utilize the sidebar to do things such as filtering your view base
 <img width="266" alt="screen shot 2018-07-19 at 3 45 36 pm" src="https://user-images.githubusercontent.com/40368878/42966338-d03afccc-8b6a-11e8-8bbe-72601cd813ab.png">
 
 ## Deploying to Heroku
-This assumes some knowledge of setting up an application through Heroku. For more details on how to deploy to Heroku, check out [Heroku's deployment documentation](https://devcenter.heroku.com/categories/deployment).
+
+You can automatically deploy this dashboard to a heroku instance by clicking the button below:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+Alternatively, you can follow the set up instructions beow which assume some knowledge of setting up an application through Heroku. For more details on how to deploy to Heroku, check out [Heroku's deployment documentation](https://devcenter.heroku.com/categories/deployment).
 
 ###  Generate an API key from the Braze Dashboard 
 Create a new API key through API Settings on the Braze Developer Console. This allows you to generate an API Key that can only access the required export endpoints instead of the full access key.

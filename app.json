@@ -1,0 +1,33 @@
+{
+    "name": "Braze Example Analytics Dashboard",
+    "description": "The goal of this dashboard is to provide an example of the flexibility our REST API endpoints allow for customized reporting needs. Please note that this project is NOT one that will be actively supported/enhanced by Braze as it is intended only to serve as an example.",
+    "repository": "https://github.com/Appboy/example-analytics-dashboard",
+    "logo": "https://www.braze.com/images/logos/logo-braze-stroked-monogram.svg",
+    "addons": ["mongolab:sandbox"],
+    "env": {
+              "APP_GROUP_ID": {
+                "description": "API Key for your App Group. For more info see: https://github.com/Appboy/example-analytics-dashboard#generate-an-api-key-from-the-braze-dashboard",
+                "value" : "XXXXXXXXXXXXXXXXX"
+              },
+              "CAMPAIGNS_API_URL": {
+                "description": "Your base REST API URL + /campaigns/. For full list of base REST API URLs see: https://www.braze.com/docs/developer_guide/rest_api/basics/#endpoints).",
+                "value": "https://rest.iad-01.braze.com/campaigns/"
+              },
+                "USER_NAME" : {
+                    "description": "A username to login to your dashboard",
+                    "value" : "admin"
+                },
+                "PASSWORD" : {
+                    "description": "A password to login to your dashboard",
+                    "value" : "password"
+                },
+                "TZ" : {
+                    "description": "The timezone you want your data displayed in. Use TZ timezones: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones",
+                    "value" : "America/New_York"
+                }
+
+
+
+            }
+
+  }
